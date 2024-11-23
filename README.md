@@ -1,5 +1,7 @@
 # WezTerm Session Manager
 
+## **[Original Creator](https://github.com/danielcopper/wezterm-session-manager)**
+
 The [WezTerm](https://wezfurlong.org/wezterm/) Session Manager is a Lua script
 enhancement for WezTerm that provides functionality to save, load, and restore
 terminal sessions. This tool helps manage terminal sessions, its goal is to save
@@ -20,14 +22,14 @@ and restore different sessions or better workspaces and later restore them.
    directory:
 
    ```bash
-   git clone https://github.com/danielcopper/wezterm-session-manager.git ~/.config/wezterm/wezterm-session-manager
+   git clone https://github.com/jabafett/wezterm-sessions.git ~/.config/wezterm/wezterm-sessions
    ```
 
 2. **Configure WezTerm:** Edit your 'wezterm.lua' file to include the Session
    Manager:
 
    ```lua
-   local session_manager = require("wezterm-session-manager/session-manager")
+   local session_manager = require("wezterm-sessions/session-manager")
    ```
 
 3. **Setup Event Bindings:** Edit your 'wezterm.lua' to include the event
