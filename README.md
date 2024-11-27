@@ -2,6 +2,8 @@
 
 ## **[Original Creator](https://github.com/danielcopper/wezterm-session-manager)**
 
+wanted to take this farther but its for another time
+
 The [WezTerm](https://wezfurlong.org/wezterm/) Session Manager is a Lua script
 enhancement for WezTerm that provides functionality to save, load, and restore
 terminal sessions. This tool helps manage terminal sessions, its goal is to save
